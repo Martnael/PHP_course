@@ -1,0 +1,44 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: block;
+    text-align: center;
+}
+
+form {
+    border: 2px solid black;
+}
+
+div {
+    border-radius: 50px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+input[type=text] {
+    width: 20%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 20%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 10%;
+    background-color: slategray;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
